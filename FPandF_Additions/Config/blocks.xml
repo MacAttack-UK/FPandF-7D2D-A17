@@ -3,7 +3,7 @@
 	<append xpath="/blocks">
 		<block name="superCampfire">
 			<property name="Extends" value="campfire" />
-			<property name="HeatMapStrength" value="90" />
+			<property name="HeatMapStrength" value="45" />
 			<property name="HeatMapTime" value="1400" />
 			<property name="HeatMapFrequency" value="5" />
 			<property name="BuffsWhenWalkedOn" value=""/>
