@@ -1,0 +1,10 @@
+<configs>
+	<append xpath="/xui/ruleset">
+		<window_group name="workstation_superCampfire" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowFuel" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+	</append>
+</configs>
