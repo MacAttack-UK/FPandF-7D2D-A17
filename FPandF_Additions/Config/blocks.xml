@@ -1,6 +1,6 @@
-<!-- Some text goes here -->
+<!-- [FPandF Gaming] Additions [A17 Modlet] -->
 <configs>
-	<append xpath="/blocks">
+	<append xpath="/blocks"> <!-- SuperCampfire (Creative Only) -->
 		<block name="superCampfire">
 			<property name="Extends" value="campfire" />
 			<property name="HeatMapStrength" value="90" />

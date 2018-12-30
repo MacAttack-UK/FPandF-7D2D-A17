@@ -1,7 +1,7 @@
 <!-- [FPandF Gaming] Ammo unload and Fuel empty [A17 Modlet] -->
 <configs>
 
-	<append xpath="/items">
+	<append xpath="/items"> <!-- Add null ammo -->
 		<item name="Unload">
 			<property name="CustomIcon" value=""/>
 			<property name="Extends" value="ammo9mmBullet"/>
@@ -10,7 +10,7 @@
 		</item>
 	</append>
 
-	<append xpath="/items">
+	<append xpath="/items"> <!-- Add null gascan -->
 		<item name="Empty">
 			<property name="CustomIcon" value=""/>
 			<property name="Extends" value="ammoGasCan"/>
@@ -21,7 +21,9 @@
 		</item>
 	</append>
 
+	<!-- Search and append 'Unload' -->
 	<append xpath="/items/item[not (starts-with(@name, 'meleeTool'))]/property[@class='Action0']/property[@name='Magazine_items']/@value">,Unload</append>
+	<!-- Search and append 'Empty' -->
 	<append xpath="/items/item[starts-with(@name, 'meleeTool')]/property[@class='Action0']/property[@name='Magazine_items']/@value">,Empty</append>
 	
 </configs>
