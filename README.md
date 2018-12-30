@@ -2,4 +2,4 @@
 
 FPandF Gaming
 
-7 Days to Die - A17 Modlet development for our community servers
+7 Days to Die - A17 Modlets used on our community servers
